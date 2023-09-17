@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Dropdown Menu</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="dropdown-content" class="dropdown">
+            <button id="dropdown-button" class="dropdown-button">
+                <i class="ri-user-3-line dropdown-icon"></i>
+                <span class="dropdown-name">My profile</span>
+
+                <div class="dropdown-icons">
+                    <i class="ri-arrow-down-s-line dropdown-arrow"></i>
+                    <i class="ri-close-line dropdown-close"></i>
+                </div>
+            </button>
+
+            <ul class="dropdown-menu">
+                <li class="dropdown-item">
+                    <i class="ri-message-3-line dropdown-icon"></i>
+                    <span class="dropdown-name">Messages</span>
+                </li>
+
+                <li class="dropdown-item">
+                    <i class="ri-lock-line dropdown-icon"></i>
+                    <span class="dropdown-name">Accounts</span>
+                </li>
+
+                <li class="dropdown-item">
+                    <i class="ri-settings-3-line dropdown-icon"></i>
+                    <span class="dropdown-name">Settings</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
