@@ -1,7 +1,8 @@
 # :sweat_drops: Dropdown Menu
 
-- Product Card
-- Using HTML, CSS & Javascript
+- Dropdown Menu Using HTML, CSS & Javascript
+- Contains a button that shows and hides the menu.
+- Along with an animation when showing the menu.
 
 ### :star: [Demo](https://fakestandard.github.io/ui-dropdown-menu/)
 
